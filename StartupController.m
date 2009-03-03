@@ -1,9 +1,9 @@
 /*
- *		NSObject subclass to get key-down information at startup 
+ *		NSObject subclass to get key-down information at startup
  *
- *		Adapated from 
+ *		Adapted from:
  *		http://bbs.applescript.net/viewtopic.php?id=19065
- *  
+ *
  */
 
 #import "StartupController.h"
@@ -19,5 +19,6 @@
     return ((GetCurrentKeyModifiers() & optionKey) != 0);
 }
 
-//... you can also use 'optionKey', 'cmdKey', or 'shiftKey' in place of "controlKey"
+// the possible key modifiers are 'optionKey', 'cmdKey', 'shiftKey', 'controlKey'
+
 @end
