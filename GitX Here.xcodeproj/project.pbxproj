@@ -25,6 +25,7 @@
 		1317FAF80F5D789E005DBAB8 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1317FAF70F5D789E005DBAB8 /* Carbon.framework */; };
 		13992EC10F5D7B5D00456DE6 /* gitx.icns in Resources */ = {isa = PBXBuildFile; fileRef = 13992EC00F5D7B5D00456DE6 /* gitx.icns */; };
 		13992ED20F5D7C9E00456DE6 /* COPYING in Resources */ = {isa = PBXBuildFile; fileRef = 13992ED10F5D7C9E00456DE6 /* COPYING */; };
+		13992EF40F5D87EF00456DE6 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 13992EF30F5D87EF00456DE6 /* README */; };
 		25757365072882A0000BE9CA /* Application.applescript in AppleScript */ = {isa = PBXBuildFile; fileRef = DA458A96036079E503C91932 /* Application.applescript */; settings = {ATTRIBUTES = (Debug, ); }; };
 		25757368072882A0000BE9CA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		2575736A072882A0000BE9CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
@@ -41,6 +42,7 @@
 		1317FAF70F5D789E005DBAB8 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
 		13992EC00F5D7B5D00456DE6 /* gitx.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = gitx.icns; sourceTree = "<group>"; };
 		13992ED10F5D7C9E00456DE6 /* COPYING */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
+		13992EF30F5D87EF00456DE6 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		25757375072882A0000BE9CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		25757376072882A0000BE9CA /* GitX Here.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GitX Here.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				13992EF30F5D87EF00456DE6 /* README */,
 				13992EC00F5D7B5D00456DE6 /* gitx.icns */,
 				60A014E30DBD2B4C0071D9A8 /* MainMenu.xib */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
@@ -205,6 +208,7 @@
 				60A014E50DBD2B4C0071D9A8 /* MainMenu.xib in Resources */,
 				13992EC10F5D7B5D00456DE6 /* gitx.icns in Resources */,
 				13992ED20F5D7C9E00456DE6 /* COPYING in Resources */,
+				13992EF40F5D87EF00456DE6 /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

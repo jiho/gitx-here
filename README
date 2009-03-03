@@ -1,0 +1,13 @@
+DESCRIPTION:
+
+GitX Here is an AppleScript app which makes opening GitX from the Finder easy.
+
+When the icons is clicked, GitX opens the folder currently displayed in the frontmost Finder window.
+When a file or folder is dropped on the icon, the parent git repository is opened in GitX (which is possibly the dropper folder itself).
+
+Pressing Option (⌥) or Command (⌘) while clicking or dropping items opens GitX in commit mode
+
+It is based on the OpenTerminalHere version described there:
+	http://jo.irisson.free.fr/?p=59
+
+-- JiHO
